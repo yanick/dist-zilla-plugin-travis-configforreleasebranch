@@ -4,7 +4,7 @@ Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch - Create a .travis.yml suita
 
 # VERSION
 
-This document describes version 0.001 of Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch - released August 11, 2013 as part of Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch.
+This document describes version 0.000\_01 of Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch - released August 11, 2013 as part of Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch.
 
 # SYNOPSIS
 
@@ -27,8 +27,8 @@ to fail.
 
 Yep, this is an early, early version.  No tests, and no flexibility in
 configuration details.  Anyone wishing to assist (and faster than this author
-in remedying this state of affairs) is more than welcome to submit pull
-requests.  Good pull requests are likely to earn the undying gratitude of
+in remedying this sad, sad state of affairs) is more than welcome to submit
+pull requests.  Good pull requests are likely to earn the undying gratitude of
 this humble CPAN author.
 
 # SEE ALSO
