@@ -1,0 +1,4 @@
+Revision history for Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch
+
+{{$NEXT}}
+	* initial release -- could use some test and other love, but WFM :)
