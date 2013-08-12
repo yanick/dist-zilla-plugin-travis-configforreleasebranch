@@ -1,6 +1,4 @@
 Revision history for Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch
 
-{{$NEXT}}
-
 0.000_01  2013-08-11 22:10:05 PDT-0700
 	* initial release -- could use some test and other love, but WFM :)
