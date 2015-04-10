@@ -44,6 +44,9 @@ __PACKAGE__->meta->make_immutable;
 
 __DATA__
 ___[ .travis.yml ]___
+# use the container-based infrastructure
+sudo: false
+
 language: perl
 perl:
    - "5.8"
@@ -52,6 +55,7 @@ perl:
    - "5.14"
    - "5.16"
    - "5.18"
+   - "5.20"
 
 matrix:
    allow_failures:
@@ -64,7 +68,7 @@ before_install:
 
 install:
    # not so much install our package as all its prereqs
-   - cpanm --installdeps . || { cat ~/.cpanm/build.log ; false ; }
+   - cpanm --installdeps -q --skip-satisfied . || { cat ~/.cpanm/build.log ; false ; }
 
 script:
    - perl Makefile.PL
