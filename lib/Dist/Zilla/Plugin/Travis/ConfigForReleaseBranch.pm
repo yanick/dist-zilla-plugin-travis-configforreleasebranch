@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch;
 
-# ABSTRACT: Create a .travis.yml suitable for built branches
+# ABSTRACT: Create a C<.travis.yml> suitable for built branches
 
 use Moose;
 use namespace::autoclean;
