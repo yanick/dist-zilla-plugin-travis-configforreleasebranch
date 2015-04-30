@@ -2,6 +2,9 @@ Revision history for Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch
 
 {{$NEXT}}
 
+0.004     2015-04-29 21:00:21 PDT-0700
+	* no changes; 0.003 validated.
+
 0.003-TRIAL  2015-04-29 20:51:18 PDT-0700
 	* add 5.21 (with allow-fail)
 	* switch to using the default travis install/script stanzas

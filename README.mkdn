@@ -8,7 +8,7 @@ Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch - Create a `.travis.yml` sui
 
 # VERSION
 
-This document describes version 0.003 of Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch - released April 29, 2015 as part of Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch.
+This document describes version 0.004 of Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch - released April 29, 2015 as part of Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch.
 
 # SYNOPSIS
 
