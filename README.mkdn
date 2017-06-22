@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch.svg?branch=master)](https://travis-ci.org/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch)
 [![Kwalitee status](http://cpants.cpanauthors.org/dist/Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch.png)](http://cpants.charsbar.org/dist/overview/Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch)
-[![Coverage Status](https://coveralls.io/repos/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch/badge.png?branch=master)](https://coveralls.io/r/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch?branch=master)
+[![Coverage Status](https://coveralls.io/repos/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch/badge.svg?branch=master)](https://coveralls.io/r/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch?branch=master)
 
 # NAME
 
@@ -8,7 +8,7 @@ Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch - Create a `.travis.yml` sui
 
 # VERSION
 
-This document describes version 0.004 of Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch - released April 29, 2015 as part of Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch.
+This document describes version 0.005 of Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch - released June 21, 2017 as part of Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch.
 
 # SYNOPSIS
 
@@ -42,15 +42,10 @@ Please see those modules/websites for more information related to this module.
 - [Dist::Zilla::Plugin::Git::CommitBuild](https://metacpan.org/pod/Dist::Zilla::Plugin::Git::CommitBuild)
 - [Dist::Zilla::TravisCI](https://metacpan.org/pod/Dist::Zilla::TravisCI)
 
-# SOURCE
-
-The development version is on github at [http://https://github.com/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch](http://https://github.com/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch)
-and may be cloned from [git://https://github.com/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch.git](git://https://github.com/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch.git)
-
 # BUGS
 
 Please report any bugs or feature requests on the bugtracker website
-https://github.com/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch/issues
+[https://github.com/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch/issues](https://github.com/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch/issues)
 
 When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired
@@ -60,26 +55,9 @@ feature.
 
 Chris Weyl <cweyl@alumni.drew.edu>
 
-## I'm a material boy in a material world
-
-<div>
-    <a href="https://gratipay.com/RsrchBoy/"><img src="http://img.shields.io/gratipay/RsrchBoy.svg" /></a>
-    <a href="http://bit.ly/rsrchboys-wishlist"><img src="http://wps.io/wp-content/uploads/2014/05/amazon_wishlist.resized.png" /></a>
-    <a href="https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgithub.com%2FRsrchBoy%2Fdist-zilla-plugin-travis-configforreleasebranch&title=RsrchBoy's%20CPAN%20Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch&tags=%22RsrchBoy's%20Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch%20in%20the%20CPAN%22"><img src="http://api.flattr.com/button/flattr-badge-large.png" /></a>
-</div>
-
-Please note **I do not expect to be gittip'ed or flattr'ed for this work**,
-rather **it is simply a very pleasant surprise**. I largely create and release
-works like this because I need them or I find it enjoyable; however, don't let
-that stop you if you feel like it ;)
-
-[Flattr](https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgithub.com%2FRsrchBoy%2Fdist-zilla-plugin-travis-configforreleasebranch&title=RsrchBoy&#x27;s%20CPAN%20Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch&tags=%22RsrchBoy&#x27;s%20Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch%20in%20the%20CPAN%22),
-[Gratipay](https://gratipay.com/RsrchBoy/), or indulge my
-[Amazon Wishlist](http://bit.ly/rsrchboys-wishlist)...  If and \*only\* if you so desire.
-
 # COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2013 by Chris Weyl.
+This software is Copyright (c) 2017, 2015, 2013 by Chris Weyl.
 
 This is free software, licensed under:
 
