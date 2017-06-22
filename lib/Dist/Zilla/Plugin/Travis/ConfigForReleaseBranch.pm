@@ -1,10 +1,40 @@
+#
+# This file is part of Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch
+#
+# This software is Copyright (c) 2017, 2015, 2013 by Chris Weyl.
+#
+# This is free software, licensed under:
+#
+#   The GNU Lesser General Public License, Version 2.1, February 1999
+#
 package Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch;
+our $AUTHORITY = 'cpan:RSRCHBOY';
+# git description: 0.004-4-gf9a6bb6
+$Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch::VERSION = '0.005';
 
 # ABSTRACT: Create a C<.travis.yml> suitable for built branches
 
 use Moose;
 use namespace::autoclean;
 extends 'Dist::Zilla::Plugin::InlineFiles';
+
+
+__PACKAGE__->meta->make_immutable;
+!!42;
+
+=pod
+
+=encoding UTF-8
+
+=for :stopwords Chris Weyl
+
+=head1 NAME
+
+Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch - Create a C<.travis.yml> suitable for built branches
+
+=head1 VERSION
+
+This document describes version 0.005 of Dist::Zilla::Plugin::Travis::ConfigForReleaseBranch - released June 21, 2017 as part of Dist-Zilla-Plugin-Travis-ConfigForReleaseBranch.
 
 =head1 SYNOPSIS
 
@@ -33,14 +63,42 @@ this humble CPAN author.
 
 =head1 SEE ALSO
 
-Dist::Zilla::Plugin::Git::CommitBuild
+Please see those modules/websites for more information related to this module.
 
-Dist::Zilla::TravisCI
+=over 4
+
+=item *
+
+L<Dist::Zilla::Plugin::Git::CommitBuild|Dist::Zilla::Plugin::Git::CommitBuild>
+
+=item *
+
+L<Dist::Zilla::TravisCI|Dist::Zilla::TravisCI>
+
+=back
+
+=head1 BUGS
+
+Please report any bugs or feature requests on the bugtracker website
+L<https://github.com/RsrchBoy/dist-zilla-plugin-travis-configforreleasebranch/issues>
+
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
+
+=head1 AUTHOR
+
+Chris Weyl <cweyl@alumni.drew.edu>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is Copyright (c) 2017, 2015, 2013 by Chris Weyl.
+
+This is free software, licensed under:
+
+  The GNU Lesser General Public License, Version 2.1, February 1999
 
 =cut
-
-__PACKAGE__->meta->make_immutable;
-!!42;
 
 __DATA__
 ___[ .travis.yml ]___
